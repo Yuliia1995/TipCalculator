@@ -7,10 +7,10 @@ document.querySelector('#tip-form').onchange = function(){
     var tip = document.getElementById('tipInput').value;
     if (tip<15) {
       var choice = prompt("Was your service ok? Please answer Yes or No below:");
-      if (choice == "Yes") {
-        alert("Consider leaving your server better tip. It is at least 15% for NYC")
+      if (choice == "No" || choice == "no" || choice =="N") {
+        alert("Sorry to hear this! Understand that servers can control only this much and get reimbursed mostly off your tips. Hopefully your next reastaurant experience will be better :)")
       } else {
-        alert("Sorry to hear this, we will make it up to you next time!")
+        alert("Consider leaving your server a better tip. It is at least 15% for NYC")
       }
     }
     document.getElementById('tipOutput').textContent = tip + "%"; // Fills out Tip  Output with tip variable and a percentage sign
@@ -25,5 +25,6 @@ document.querySelector('#tip-form').onchange = function(){
    //Show Results
   
     document.getElementById('results').style.display='block'
+    document.getElementById('bekind').style.display ="none"
   }
   

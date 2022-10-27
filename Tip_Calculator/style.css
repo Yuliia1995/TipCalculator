@@ -71,7 +71,7 @@ input[type=number] {
 h1 {
     text-align: center;
     font-size: 41px;
-    padding-bottom:30px;
+    padding-bottom:10px;
 }
 p {
     text-align: center;
@@ -102,6 +102,7 @@ main {
 #tipInput {
     width:70%;
     filter:sepia(.9);
+    margin-left:40px;
 }
 
 #results {
@@ -117,5 +118,17 @@ main {
 #percentage-sign {
     position:relative;
     right:-310px;
+}
+
+#filler {
+    width:40%;
+    margin-left:30%;
+    text-align: center;
+}
+
+#bekind {
+    width:25%;
+    margin-left:37.5%;
+    margin-top:20px;
 }
 
