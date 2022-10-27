@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <main class="check">
+        <h1>Any NYC Restaurant</h1>
+        <p>This app will help you estimate the collateral damage of going out with your family, friends and etc. <br> Enter your estimated Subtotal before tax to see your accurate&nbspTotal. <br>If you're dining outside of NY, you may enter this state's tax rate in %.</p>
+        <form id="tip-form">
+            <div class="form-sec">
+                <h5>Subtotal Bill</h5>
+                <h5 id="dollar-sign">$</h5>
+                <input type="number" class="form-control" id="billSubtotal" placeholder="0" min="0">
+            </div>
+            <div class="form-sec">
+                <h5>Tax</h5>
+                <h5 id="percentage-sign">%</h5>
+                <input type="number" class="form-control" id="billTax" value="8.875" min="0" step=".025"></div>
+            <div class="form-sec">
+                <h5>Total</h5>
+                <h5 id="billTotal"></div>
+            <div class="form-sec">
+                <h5>Tip:</h5>
+            </div>
+            <div class="form-sec">
+                <input type="range" class="form-control" id="tipInput" value="18" list="steplist" min="0" step="1" max="100">
+                <datalist id="steplist">
+                    <option>0</option>
+                    <option>20</option>
+                    <option>40</option>
+                    <option>60</option>
+                    <option>80</option>
+                    <option>100</option>
+                </datalist>
+                <h5 id="tipOutput">18%</h5>
+            </div>
+        </form>
+
+        <div id="results">
+            <div class="form-sec">
+                <h5>Total Tip</h5>
+                <h5 id="tipAmount"></h5>
+            </div>
+            <div class="form-sec">
+                <h5>Total Bill with Tip</h5>
+                <h5 id="totalBillWithTip"></h5>
+            </div>
+            <img id="thankyou-img" src="thankyou.png" alt="Thank You!">
+        </div>
+        <div class="follow">
+            <a href="yuliiah.com" target="_blank"><img src="logo-removebg.png" alt="" srcset=""></a>
+            <a href="https://github.com/Yuliia1995" target="_blank"><img src="gitHub_logo.png" alt="" srcset=""></a>
+            <a href="https://www.linkedin.com/in/yuliia-hlamazdenko-79bb93154/" target="_blank"><img src="linkedin_logo.png" alt="" srcset=""></a>
+        </div>
+        
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>

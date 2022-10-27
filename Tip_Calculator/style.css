@@ -1,0 +1,121 @@
+*,*::before,*::after {
+margin:0;
+padding:0;
+box-sizing:border-box;
+overflow: hidden;
+}
+
+body {
+    font-family: monospace;
+    line-height: 200%;
+    font-size:14px;
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), bottom no-repeat rgba(0,0,0,.6) url(table_bg.jpg);
+    background-size: cover;
+}
+
+form {
+    width:100%;
+    margin-top:30px;
+    
+    
+    
+}
+
+input[type=number] {
+    font-size: 20px;
+    padding-right:12px;
+    width:130px;
+    background-image: url(check-texture_bg.jpg);
+    background-size: 500%;
+    border: none;
+    text-align: right;
+    font-weight: 600;
+}
+#thankyou-img {
+    width:10vw;
+    height:auto;
+    position: relative;
+    left:50%;
+    top:-50px;
+    transform: translateX(-10%) rotate(-30deg);
+    border-radius: 100%;
+}
+
+.form-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow {
+    width:20%;
+    display:flex;
+    justify-content: center;
+    margin:30px auto;
+    position: absolute;
+    left:50%;
+    bottom:5vh;
+    transform: translateX(-50%);
+}
+
+.follow a {
+    width:30%;
+}
+.follow img {
+    width:inherit;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+h1 {
+    text-align: center;
+    font-size: 41px;
+    padding-bottom:30px;
+}
+p {
+    text-align: center;
+    line-height: 150%;
+}
+
+h5 {
+    font-size: 20px;
+    z-index:3;
+}
+
+
+main {
+    width:80vw;
+    height: 90vh;
+    min-width:380px;
+    max-width: 600px;
+    background: repeat url(check-texture_bg.jpg);
+    background-size: contain;
+    margin:5vh auto;
+    padding: 30px;
+    overflow-y:auto;
+    box-shadow: 10px 10px 22px 1px rgba(0,0,0,0.52);
+-webkit-box-shadow: 10px 10px 22px 1px rgba(0,0,0,0.52);
+-moz-box-shadow: 10px 10px 22px 1px rgba(0,0,0,0.52);
+}
+
+#tipInput {
+    width:70%;
+    filter:sepia(.9);
+}
+
+#results {
+    display: none;
+    margin-top:30px;
+}
+
+#dollar-sign {
+    position:relative;
+    right:-135px;
+}
+
+#percentage-sign {
+    position:relative;
+    right:-310px;
+}
+
