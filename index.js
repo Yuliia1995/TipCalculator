@@ -25,6 +25,6 @@ document.querySelector('#tip-form').onchange = function(){
    //Show Results
   
     document.getElementById('results').style.display='block'
-    document.getElementById('bekind').style.display ="none"
+    document.getElementById('filler2').style.display ="none"
   }
   

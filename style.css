@@ -120,15 +120,14 @@ main {
     right:-310px;
 }
 
-#filler {
+.filler {
     width:40%;
     margin-left:30%;
     text-align: center;
 }
 
-#bekind {
-    width:25%;
-    margin-left:37.5%;
-    margin-top:20px;
+.filler:nth-of-type(2) {
+    margin-top:50px;
+    transform: rotate(180deg);
 }
 
