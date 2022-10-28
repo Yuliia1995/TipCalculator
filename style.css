@@ -18,9 +18,6 @@ body {
 form {
     width:100%;
     margin-top:30px;
-    
-    
-    
 }
 
 input[type=number] {
@@ -126,7 +123,7 @@ main {
     text-align: center;
 }
 
-.filler:nth-of-type(2) {
+#filler {
     margin-top:50px;
     transform: rotate(180deg);
 }
